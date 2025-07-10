@@ -80,7 +80,7 @@ mvn allure:report
 
 .
 
-##📦 Use Cases
+## 📦 Use Cases
 Build UI and API test coverage for web-based applications
 
 Define executable specifications using Gherkin for improved team collaboration
@@ -89,7 +89,7 @@ Use as a baseline framework for enterprise test automation projects
 
 Customize and scale based on project needs (e.g., add Appium, DB validations)
 
-##📄 License
+## 📄 License
 This framework is released under the MIT License. Feel free to fork, extend, and contribute.
 
 #📬 Contact
