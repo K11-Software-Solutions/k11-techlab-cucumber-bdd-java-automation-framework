@@ -1,42 +1,50 @@
 # 🧱 K11 TechLab – Cucumber BDD Java Automation Framework
 
-A robust, extensible test automation framework built with **Java**, **Cucumber BDD**, **Selenium WebDriver**, and **TestNG**, designed for scalable end-to-end testing across web and API layers.  
+A robust, extensible test automation framework built with **Java**, **Cucumber BDD**, **Selenium WebDriver**, **TestNG**, **Appium**, and **REST Assured** — designed for scalable end-to-end testing across web, mobile, and API layers.
 
-This project demonstrates best practices in test framework architecture, combining modular design, data-driven execution, CI/CD compatibility, and comprehensive reporting.
+This project demonstrates best practices in automation framework architecture, combining modular design, data-driven execution, CI/CD readiness, and comprehensive reporting.
 
 ---
 
 ## 🚀 Features
 
 - **Gherkin-Driven Test Design**  
-  Write business-readable feature files using Cucumber syntax for UI and API scenarios.
+  Write business-readable feature files using Cucumber syntax for UI, API, and mobile scenarios.
 
 - **Page Object Model (POM)**  
-  Clean separation of page structure and test logic to enhance reusability and maintainability.
+  Clean separation of UI page elements and test logic for enhanced reusability and maintainability.
 
 - **Modular Architecture**  
-  Decoupled layers for step definitions, test utilities, and configuration management.
+  Separate layers for step definitions, utilities, mobile/page objects, runners, and configurations.
 
 - **Data-Driven Testing**  
-  Scenario outlines and external data sources support dynamic test inputs.
+  Supports scenario outlines and external data sources for flexible test input and logic.
 
-- **Integrated API Testing**  
-  Extend the framework with REST Assured or HTTP clients for service-level validation.
+- **Mobile Testing with Appium**  
+  Automate Android and iOS native/hybrid apps using Appium drivers integrated into the test suite.
+
+- **REST API Testing with REST Assured**  
+  Validate API responses, status codes, and payloads via REST Assured, fully integrated into BDD steps.
 
 - **Parallel Execution**  
-  Run tests concurrently via TestNG and Maven profiles to reduce execution time.
+  Configure and execute test runs in parallel using TestNG and Maven profiles.
 
 - **Advanced Reporting**  
-  Supports Allure Reports, ExtentReports, and Cucumber built-in reports for detailed insights.
+  Supports Allure Reports, ExtentReports, and Cucumber HTML for detailed and actionable reporting.
 
 - **CI/CD Friendly**  
-  Maven-based build lifecycle, Git version control, and Jenkins/GitHub Actions integration support continuous testing.
+  Fully compatible with Git, Maven, Jenkins, and GitHub Actions for continuous delivery and testing.
 
 ---
 
 ## 📁 Project Structure
 
 
+
+
+
+
+---
 
 
 ---
@@ -46,10 +54,12 @@ This project demonstrates best practices in test framework architecture, combini
 - Java 11+  
 - Cucumber BDD  
 - Selenium WebDriver  
+- Appium (Android/iOS)  
+- REST Assured  
 - TestNG  
 - Maven  
 - Allure / ExtentReports  
-- Git, Jenkins (optional)
+- Git, Jenkins / GitHub Actions
 
 ---
 
