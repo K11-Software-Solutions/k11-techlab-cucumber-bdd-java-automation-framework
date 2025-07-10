@@ -35,19 +35,7 @@ This project demonstrates best practices in automation framework architecture, c
 - **CI/CD Friendly**  
   Fully compatible with Git, Maven, Jenkins, and GitHub Actions for continuous delivery and testing.
 
----
 
-## 📁 Project Structure
-
-
-
-
-
-
----
-
-
----
 
 ## 🛠️ Tech Stack
 
@@ -75,25 +63,31 @@ mvn clean test
 
 # Generate Allure report
 mvn allure:report
+```
 
-#Configuration files can be adjusted under src/test/resources/config/ to point to desired environments or test data sources.
+> 🔧 Configuration files can be adjusted under `src/test/resources/config/` to support different environments and test data sources.
 
-.
+---
 
 ## 📦 Use Cases
-Build UI and API test coverage for web-based applications
 
-Define executable specifications using Gherkin for improved team collaboration
+- Build full-stack test coverage across UI, API, and mobile platforms  
+- Define executable specifications using Gherkin for cross-functional collaboration  
+- Adopt as a reusable, customizable framework foundation for enterprise QA initiatives  
+- Extend with custom integrations (e.g., DB checks, 3rd-party APIs, visual validations)
 
-Use as a baseline framework for enterprise test automation projects
-
-Customize and scale based on project needs (e.g., add Appium, DB validations)
+---
 
 ## 📄 License
-This framework is released under the MIT License. Feel free to fork, extend, and contribute.
 
-#📬 Contact
-For consulting, training, or implementation support:
-🔗 softwaretestautomation.org
+This framework is released under the **MIT License**. Feel free to fork, extend, and contribute.
+
+---
+
+## 📬 Contact
+
+For consulting, training, or implementation support:  
+🔗 [softwaretestautomation.org](https://www.softwaretestautomation.org)  
 📧 kavita.jadhav.sdet@gmail.com
+
 
