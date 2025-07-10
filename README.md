@@ -35,16 +35,7 @@ This project demonstrates best practices in test framework architecture, combini
 ---
 
 ## 📁 Project Structure
-src/
-└── test/
-    ├── java/
-    │   ├── stepdefinitions/   # Cucumber step implementations
-    │   ├── pages/             # Page Object Model classes
-    │   ├── utils/             # Reusable helper methods and utilities
-    │   └── runners/           # Test runners (TestNG, Cucumber options)
-    └── resources/
-        ├── features/          # Gherkin feature files
-        └── config/            # Environment configs and test data
+
 
 
 
