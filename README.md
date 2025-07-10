@@ -61,8 +61,6 @@ cd k11-techlab-cucumber-bdd-java-automation-framework
 # Execute tests via Maven
 mvn clean test
 
-# Generate Allure report
-mvn allure:report
 ```
 
 > 🔧 Configuration files can be adjusted under `src/test/resources/config/` to support different environments and test data sources.
