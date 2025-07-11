@@ -55,7 +55,7 @@ This project demonstrates best practices in automation framework architecture, c
 
 ```bash
 # Clone the repository
-git clone https://github.com/K11-Software-Solutions/k11TechLab-cucumber-bdd-java-automation-framework.git
+git clone https://github.com/K11-Software-Solutions/k11TechLab-cucumber-bdd-java-hybrid-framework.git
 cd k11TechLab-cucumber-bdd-java-automation-framework
 
 # Execute tests via Maven
