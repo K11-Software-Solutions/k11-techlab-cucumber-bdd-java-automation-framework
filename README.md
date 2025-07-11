@@ -46,7 +46,7 @@ This project demonstrates best practices in automation framework architecture, c
 - REST Assured  
 - TestNG  
 - Maven  
-- Allure / ExtentReports  
+- ExtentReports  
 - Git, Jenkins / GitHub Actions
 
 ---
